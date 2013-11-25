@@ -19,8 +19,9 @@ development:
   encoding: unicode
   database: contact_manager_development
   pool: 5
-  username: contact_manager
-  password:
+  host: localhost
+#  username: contact_manager
+#  password:
 
   # Connect on a TCP socket. Omitted by default since the client uses a
   # domain socket that doesn't need configuration. Windows does not have
@@ -48,13 +49,15 @@ test:
   encoding: unicode
   database: contact_manager_test
   pool: 5
-  username: contact_manager
-  password:
+  host: localhost
+#  username: contact_manager
+#  password:
 
 production:
   adapter: postgresql
   encoding: unicode
   database: contact_manager_production
   pool: 5
-  username: contact_manager
-  password:
+  host: localhost
+#  username: contact_manager
+#  password:
